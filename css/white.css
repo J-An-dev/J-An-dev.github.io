@@ -42,7 +42,7 @@ span {
   justify-content: center;
 }
 .menu-inner {
-  width: 950px;
+  width: 930px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -123,7 +123,7 @@ span {
   justify-content: center;
 }
 .body-inner {
-  width: 950px;
+  width: 930px;
   background-color: #fff;
 }
 .intro-content {
@@ -245,7 +245,7 @@ a {
 }
 .footer-inner {
   padding: 40px 0px;
-  width: 950px;
+  width: 930px;
   display: flex;
   justify-content: space-between;
 }
