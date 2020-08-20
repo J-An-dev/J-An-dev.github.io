@@ -42,7 +42,7 @@ span {
   justify-content: center;
 }
 .menu-inner {
-  width: 930px;
+  width: 900px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -123,7 +123,7 @@ span {
   justify-content: center;
 }
 .body-inner {
-  width: 930px;
+  width: 900px;
   background-color: #fff;
 }
 .intro-content {
@@ -245,7 +245,7 @@ a {
 }
 .footer-inner {
   padding: 40px 0px;
-  width: 930px;
+  width: 900px;
   display: flex;
   justify-content: space-between;
 }
@@ -709,6 +709,6 @@ li p {
 }
 @media screen and (max-width: 450px) {
   .post-content-inner {
-    width: 350px;
+    width: 400px;
   }
 }
