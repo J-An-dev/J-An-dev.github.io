@@ -12,7 +12,7 @@
 }
 * {
   padding: 0;
-  /* margin: 0; */
+  margin: auto 0;
 }
 body {
   height: 100%;
@@ -59,7 +59,7 @@ span {
 }
 .menu-li {
   float: left;
-  margin-right: 30px;
+  margin-right: 15px;
   font-size: 0.9em;
   color: #898FA0;
   position: relative;
@@ -132,7 +132,7 @@ span {
 }
 .intro-title {
   font-family: Gothic;
-  font-size: 4.5em;
+  font-size: 4.3em;
   font-weight: 1000;
   margin: 0;
   padding: 0;
@@ -695,7 +695,7 @@ li p {
 }
 @media screen and (max-width: 550px) {
   .post-content-inner {
-    width: 400px;
+    width: 370px;
   }
   .archive-post-date {
     display: none;
@@ -709,6 +709,6 @@ li p {
 }
 @media screen and (max-width: 450px) {
   .post-content-inner {
-    width: 375px;
+    width: 350px;
   }
 }
