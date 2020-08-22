@@ -28,7 +28,7 @@ let rootRealPath = getRealPath(window.location.pathname, true);
 for (let link of links) {
   let linkPath = link.getAttribute("href");
   if (linkPath && getRealPath(linkPath, true) === rootRealPath) {
-    link.className = "active-link nav-link";
+    link.className = "nav-link";
   }
 }
 // mobile-nav-link
@@ -37,7 +37,7 @@ let mrootRealPath = getRealPath(window.location.pathname, true);
 for (let mlink of mlinks) {
   let mlinkPath = mlink.getAttribute("href");
   if (mlinkPath && getRealPath(mlinkPath, true) === mrootRealPath) {
-    mlink.className = "moibile-active-link mobile-nav-link";
+    mlink.className = "mobile-nav-link";
   }
 }
 
