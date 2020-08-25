@@ -132,7 +132,7 @@ span {
 }
 .intro-title {
   font-family: Gothic;
-  font-size: 4em;
+  font-size: 5.8em;
   font-weight: 1000;
   margin: 0;
   padding: 0;
@@ -706,9 +706,15 @@ li p {
   .footer-inner {
     justify-content: center;
   }
+  .intro-title {
+    font-size: 4em;
+  }
 }
 @media screen and (max-width: 450px) {
   .post-content-inner {
     width: 350px;
+  }
+  .intro-title {
+    font-size: 4em;
   }
 }
