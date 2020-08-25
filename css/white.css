@@ -693,9 +693,9 @@ li p {
     display: block;
   }
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 420px) {
   .post-content-inner {
-    width: 370px;
+    width: 390px;
   }
   .archive-post-date {
     display: none;
@@ -707,18 +707,18 @@ li p {
     justify-content: center;
   }
   .intro-title {
-    font-size: 4em;
+    font-size: 4.5em;
   }
   .intro-sub {
     font-size: 1em;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 380px) {
   .post-content-inner {
     width: 350px;
   }
   .intro-title {
-    font-size: 4em;
+    font-size: 4.2em;
   }
   .intro-sub {
     font-size: 1em;
