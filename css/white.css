@@ -668,6 +668,11 @@ li p {
   cursor: pointer;
   font-size: 1.7em;
 }
+@media screen and (max-width: 1400px) {
+  .intro-title {
+    font-size: 5.5em;
+  }
+}
 @media screen and (max-width: 1000px) {
   .post-content-inner {
     width: 650px;
