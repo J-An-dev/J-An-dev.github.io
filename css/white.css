@@ -709,6 +709,9 @@ li p {
   .intro-title {
     font-size: 4em;
   }
+  .intro-sub {
+    font-size: 1em;
+  }
 }
 @media screen and (max-width: 450px) {
   .post-content-inner {
@@ -716,5 +719,8 @@ li p {
   }
   .intro-title {
     font-size: 4em;
+  }
+  .intro-sub {
+    font-size: 1em;
   }
 }
