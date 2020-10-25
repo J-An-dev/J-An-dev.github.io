@@ -128,7 +128,7 @@ span {
   background-color: #fff;
 }
 .intro-content {
-  margin-top: 150px;
+  margin-top: 20%;
   width: 80%;
   margin-left: 23px;
 }
@@ -668,6 +668,9 @@ li p {
   font-size: 1.7em;
 }
 @media screen and (max-width: 1400px) {
+  .intro-content {
+    margin-top: 150px;
+  }
   .intro-title {
     font-size: 5.3em;
   }
@@ -683,10 +686,16 @@ li p {
     margin-left: 23px;
   }
   .intro-content {
+    margin-top: 150px;
+  }
+  .intro-content {
     margin-left: 23px;
   }
 }
 @media screen and (max-width: 700px) {
+  .intro-content {
+    margin-top: 150px;
+  }
   .post-content-inner {
     width: 550px;
   }
@@ -710,6 +719,9 @@ li p {
   .footer-inner {
     justify-content: center;
   }
+  .intro-content {
+    margin-top: 150px;
+  }
   .intro-title {
     font-size: 4.5em;
   }
@@ -720,6 +732,9 @@ li p {
 @media screen and (max-width: 380px) {
   .post-content-inner {
     width: 350px;
+  }
+  .intro-content {
+    margin-top: 150px;
   }
   .intro-title {
     font-size: 4.2em;
